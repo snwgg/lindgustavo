@@ -19,3 +19,9 @@
     width: 100%;
     height: auto; 
   }
+  .foto site.jpeg{
+    size: 19px;
+    justify-content: center;
+    display: flex;
+    
+  }
