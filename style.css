@@ -19,9 +19,11 @@
     width: 100%;
     height: auto; 
   }
-  .foto site.jpeg{
-    size: 19px;
-    justify-content: center;
-    display: flex;
-    
+  .foto site.jpeg{.foto img {
+    max-width: 100%;
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+  }
+
   }
