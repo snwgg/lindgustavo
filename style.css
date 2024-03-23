@@ -19,8 +19,8 @@
     width: 100%;
     height: auto; 
   }
-  .foto_site.jpeg{.foto img {
-    max-width: 100%;
+  .foto_site.jpeg{
+    max-width: 50%;
     height: auto; 
     display: block;
     margin: 0 auto;
