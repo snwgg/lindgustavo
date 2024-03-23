@@ -22,7 +22,7 @@
   .foto_site.jpeg{
    width: 10px;
     height: auto; 
-    display: block;
+    display: flex;
     margin: 0 auto;
   }
 
