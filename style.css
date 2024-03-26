@@ -11,7 +11,7 @@
   }
   
   .foto {
-    flex-basis: calc(33.33% - 20px); 
+    flex-basis: (33.33% - 20px); 
     margin: 10px; 
   }
   
@@ -20,10 +20,10 @@
     height: auto; 
   }
   .foto_site.jpeg{
-   width: 10px;
+    width: 5px;
     height: auto; 
     display: flex;
     margin: 0 auto;
   }
 
-  }
+  
