@@ -1,5 +1,6 @@
 .body{
     display:flex;
+    background-color: antiquewhite;
     
 }
 
@@ -25,5 +26,14 @@
     display: flex;
     margin: 0 auto;
   }
+  .button {
+    padding: 10px 20px;
+    background-color: #8733ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
 
   
