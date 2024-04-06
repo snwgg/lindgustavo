@@ -39,6 +39,7 @@
     background-color: rgb(255, 0, 0); 
     color: white;
     padding: 10px 20px;
+    box-shadow: #fff;
     border: none; border-radius: 
     5px; cursor: pointer;
   }
