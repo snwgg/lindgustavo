@@ -37,6 +37,8 @@
         </div>
     </div>
 
+    <button onclick="showPrivateArea()">Login</button>
+
     <script>
         function login() {
             var username = document.getElementById("username").value;
@@ -47,6 +49,10 @@
             } else {
                 alert("Usuário ou senha incorretos!");
             }
+        }
+
+        function showPrivateArea() {
+            document.querySelector(".privado").style.display = "block";
         }
     </script>
 </body>
