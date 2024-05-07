@@ -47,13 +47,13 @@
             if (username === "gusta" && password === "lindo") {
                 document.querySelector(".privado").style.display = "block";
             } else {
-                alert("Usuário ou senha incorretos!");
+                alert("Ta errado rapaz");
             }
         }
 
         function showPrivateArea() {
             document.querySelector(".privado").style.display = "block";
-            document.getElementById("pv.html").style.display = "none";
+            window.location.href = "pv.html"
         }
     </script>
 </body>
