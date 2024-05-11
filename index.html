@@ -37,7 +37,7 @@
         </div>
     </div>
 <center>
-    <button class="botn.pvd" onclick="showPrivateArea()">Login</button>
+    <button class="botn.pvd" onclick="showLoginForm()">Login</button>
 </center>
 
     <script>
@@ -45,14 +45,16 @@
             var username = document.getElementById("username").value;
             var password = document.getElementById("password").value;
 
+            
+
             if (username === "gusta" && password === "lindo") {
                 document.querySelector(".privado").style.display = "block";
             } else {
-                alert("Ta errado rapaz");
+                alert("Credenciais inválidas. Por favor, tente novamente.");
             }
         }
 
-        function showPrivateArea() {
+        function showLoginForm() {
             document.querySelector(".privado").style.display = "block";
             window.location.href = "pv.html"
         }
